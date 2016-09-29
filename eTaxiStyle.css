@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color: #f0f2ed;
+    height: 80px;
+
+}
+#canada{
+    float: left;
+    margin: 14px 0 0 250px;
+}
+#contact{
+    float: right;
+    border: 2px solid gold;
+    padding: 4px;
+    text-transform: uppercase;
+    margin: 14px 250px 0 0;
+    font-size: 130%;
+    position: static;
+
+    /*margin: ;*/
+}
+#content{
+    width: 675px;
+    height: 1000px;
+    outline: 2px solid green;
+    margin: 0 340px 0 340px;
+
+}
