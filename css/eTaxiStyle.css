@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color: #f0f2ed;
+    height: 80px;
+
+}
+#header1{
+    /*outline:1px solid red;*/
+    width: 996px;
+    height: 80px;
+    margin: 0 0 0 180px;
+
+}
+#canada{
+    float: left;
+    margin: 14px 0 0 20px;
+
+}
+#contact{
+    float: right;
+    border: 2px solid gold;
+    padding: 4px;
+    margin: 14px 60px 0 0;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    position: static;
+    /*margin: ;*/
+}
+#content{
+    width: 675px;
+    height: 1000px;
+    outline: 2px solid green;
+    margin: 0 0 0 180px;
+
+
+}
+#city{
+    background-image: url("../images/city.jpg");
+    height: 281px;
+    width: 996px;
+}
+#monitor{
+    height: 100px;
+    width: 397px;
+    padding: 10px 0 16px 30px;
+    float: right;
+    margin: 75px 0 0 0;
+    background-color: black;
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-size: 130%;
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
