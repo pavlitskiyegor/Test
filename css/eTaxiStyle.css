@@ -7,10 +7,10 @@ body{
 
 }
 #header1{
-    /*outline:1px solid red;*/
+    outline:1px solid red;
     width: 996px;
     height: 80px;
-    margin: 0 0 0 180px;
+    margin: 0 auto;
 
 }
 #canada{
@@ -30,10 +30,11 @@ body{
     /*margin: ;*/
 }
 #content{
-    width: 675px;
+    width: 996px;
     height: 1000px;
     outline: 2px solid green;
-    margin: 0 0 0 180px;
+    margin: auto;
+    position: relative;
 
 
 }
@@ -41,6 +42,8 @@ body{
     background-image: url("../images/city.jpg");
     height: 281px;
     width: 996px;
+    margin: 0 auto;
+    /*outline:1px solid red;*/
 }
 #monitor{
     height: 100px;
@@ -55,3 +58,52 @@ body{
     color: white;
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+#goldBlock{
+    /*outline: 1px solid palevioletred;*/
+    background-color: #E5B604;
+    width: auto;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+}
+#services{
+    /*outline: 1px solid green;*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+}
+#monitoring{
+    position: absolute;
+    width: 996px;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.9rem;
+}
+#triangle{
+    outline: 1px solid darkblue;
+}
+#block1{
+    background-color: aqua;
+    width: auto;
+    height: 240px;
+    padding:20px 5px 20px 5px;
+    align-content: center;
+
+
+
+}
+ .logo{
+     display: inline-block;
+     height: 200px;
+     width: 150px;
+     outline:1px solid red;
+     text-align: center;
+     margin: 0 5px 0 5px;
+ }
