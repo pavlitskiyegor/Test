@@ -95,15 +95,23 @@ body{
     height: 240px;
     padding:20px 5px 20px 5px;
     align-content: center;
+}
 
-
-
+.slider{
+    background-color: aqua;
+    width: auto;
+    height: 240px;
+    padding:20px 5px 20px 5px;
+    align-content: center;
 }
  .logo{
      display: inline-block;
-     height: 200px;
-     width: 150px;
      outline:1px solid red;
      text-align: center;
      margin: 0 5px 0 5px;
+     vertical-align: top;
+     width: 32%;
+ }
+ .logo .logo__text{
+     display: block;
  }
