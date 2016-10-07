@@ -113,19 +113,38 @@ body{
      display: block;
      font-family: Geneva, Arial, Helvetica, sans-serif;
  }
-.obd{
+.text_block{
     position: relative;
     padding: 60px 0 0 0;
     width: 100%;
     background-image: url("../images/background-grey2.png");
 }
-.obd_text{
+.text{
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 2rem;
     padding: 0 20px 0 20px;
+    text-align: justify;
 
 }
-.cardroid{
+.text_block_pic{
+    position: relative;
+    width: 100%;
     align-content: center;
-    margin:0 0 0 12%;
+    text-align: center;
+
+}
+.bottom{
+    position: relative;
+    /*display: inline-block;*/
+    background-color: #313330;
+    width: 100%;
+
+}
+.links{
+    float: right;
+    width: 25%;
+}
+.about_us{
+    width: 60%;
+    margin: 0 0 0 0;
 }
