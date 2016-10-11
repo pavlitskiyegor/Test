@@ -4,6 +4,7 @@ body{
 .header{
     background-color: #f0f2ed;
     height: 80px;
+    /*line-height: 80px;*/
 
 }
 .upBlock{
@@ -11,6 +12,7 @@ body{
     width: 996px;
     height: 80px;
     margin: 0 auto;
+    /*line-height: 80px;*/
 
 }
 .logo{
@@ -20,10 +22,14 @@ body{
 }
 .contact{
     float: right;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
     border: 2px solid gold;
     padding: 4px;
     margin: 14px 60px 0 0;
-    font-size: 130%;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     position: static;
@@ -41,21 +47,23 @@ body{
 .cityPic{
     background-image: url("../images/city.jpg");
     height: 281px;
+    line-height: 281px;
     width: 996px;
     margin: 0 auto;
     /*outline:1px solid red;*/
 }
 .tagline{
     height: 100px;
+    line-height: 100px;
     width: 397px;
     padding: 10px 0 16px 30px;
     float: right;
     margin: 75px 0 0 0;
-    background-color: black;
+    background-color: #000000;
     opacity: 0.6;
     text-transform: uppercase;
     font-size: 130%;
-    color: white;
+    color: #ffffff;
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 .goldBlock{
@@ -63,6 +71,7 @@ body{
     background-color: #E5B604;
     width: auto;
     height: 40px;
+    line-height: 40px;
     margin: 0 auto;
     padding: 30px 0 10px 0;
 }
@@ -75,7 +84,7 @@ body{
     text-transform: capitalize;
     font-size: 1.6rem;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    color: white;
+    color: #ffffff;
 }
 .monitoring_text{
     position: absolute;
@@ -83,7 +92,7 @@ body{
     margin: 0 0 0 0;
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    color: white;
+    color: #ffffff;
     font-size: 0.9rem;
 }
 .triangle{
@@ -93,6 +102,7 @@ body{
     /*background-color: aqua;*/
     width: auto;
     height: 210px;
+    line-height: 210px;
     padding:20px 5px 20px 5px;
     align-content: center;
 
@@ -102,6 +112,7 @@ body{
 .slid{
      display: inline-block;
      height: 200px;
+     line-height: 200px;
      width: 32%;
      /*outline:1px solid red;*/
      text-align: center;
@@ -154,7 +165,7 @@ body{
     width: 60%;
     text-align: justify;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    color: white;
+    color: #ffffff;
     font-size: 1rem;
 
 }
@@ -163,5 +174,5 @@ h2{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
